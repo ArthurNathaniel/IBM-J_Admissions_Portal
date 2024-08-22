@@ -1,0 +1,49 @@
+
+.container {
+  margin-block: 80px;
+  padding: 0 7%;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.testimonials {
+    margin: 40px 0;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.swiper-slide {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.side_info{
+    margin-top: 50px;
+}
+.view-details{
+    background-color: transparent;
+   
+    border: none;
+
+}

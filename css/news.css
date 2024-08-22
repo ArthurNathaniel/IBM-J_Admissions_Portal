@@ -1,0 +1,74 @@
+.news_image{
+   
+     height:400px; 
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: cover;
+    
+   
+}
+.news_details{
+    padding: 0 15%;
+    padding-block: 100px;
+}
+.back{
+    padding-block: 20px;
+}
+
+.title h1{
+
+margin-bottom: 40px;
+}
+
+ .date, .title, .content{
+    margin-top: 20px;
+}
+
+.news_content{
+    padding: 0 5%;
+    margin-top: 30px;
+}
+
+
+.add_news{
+    padding: 0 25%;
+}
+
+.news_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.news {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.news img {
+    display: block;
+    max-width: 100%;
+}
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.news:hover .delete-btn {
+    display: block;
+}
+
+.forms textarea{
+    height: 150px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
