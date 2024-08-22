@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+// Check if the user is logged in
+if (!isset($_SESSION['serial_number'])) {
+    // If not, redirect to the login page
+    header("Location: login.php");
+    exit();
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,6 +40,8 @@
 
 <body class="admissions_forms">
     <div class="logo"></div>
+
+    <a href="logout.php">Logout</a>
 
     <form method="post" enctype="multipart/form-data" action="process_form.php">
         <!-- Step 1: Personal Data -->

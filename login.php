@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (mysqli_num_rows($result) === 1) {
             // Login successful, set session and redirect
             $_SESSION['serial_number'] = $serialNumber;
-            header("Location: apply.php"); // Redirect to the dashboard or another page
+            header("Location: index.php"); // Redirect to the dashboard or another page
             exit();
         } else {
             // Login failed
